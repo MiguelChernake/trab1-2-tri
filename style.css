@@ -14,18 +14,18 @@
     --azul: #002F52;
 }
 
-.body {
+body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
 }
 
-.section {
+section {
     display: block;
 }
 
-.body {video {
+body {video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -42,23 +42,23 @@ ul {
 }
 
 blockquote,
-.q {
+q {
     quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
-.q:after {
+q:after {
     content: '';
     content: none;
 }
 
-.table {
+table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-.video {
+video {
     margin: 0;
     padding: 0;
     border: 0;
