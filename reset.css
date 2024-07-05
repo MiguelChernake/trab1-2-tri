@@ -60,7 +60,14 @@ table,
 caption,
 tbody,
 tfoot,
-thead,
+thead,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 tr,
 th,
 td,
@@ -73,7 +80,14 @@ figure,
 figcaption,
 footer,
 header,
-hgroup,
+hgroup,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 menu,
 nav,
 output,
